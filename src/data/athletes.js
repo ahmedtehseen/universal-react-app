@@ -1,3 +1,5 @@
+'use strict';
+
 const athletes = [
   {
     'id': 'driulis-gonzalez',
@@ -128,3 +130,5 @@ const athletes = [
     ],
   }
 ];
+
+export default athletes;

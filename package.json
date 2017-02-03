@@ -4,7 +4,7 @@
   "description": "universal-react-app using react and nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "set NODE_ENV=production && babel-node --presets 'react,es2015' src/server.js"
   },
   "repository": {
     "type": "git",
@@ -29,7 +29,6 @@
   },
   "devDependencies": {
     "babel-loader": "^6.2.10",
-    "http-server": "^0.9.0",
-    "webpack": "^1.14.0"
+    "webpack": "^1.13.3"
   }
 }
